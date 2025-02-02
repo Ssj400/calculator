@@ -17,6 +17,8 @@ body {
     height: 45%;
     flex-direction: column;
     gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .output {
@@ -45,6 +47,8 @@ body {
     width: 100%;
     height: 75%;
     gap: 4px;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
@@ -84,7 +88,6 @@ body {
 #equal {
     background-color: rgb(17, 79, 141);
     background-image: none;
-    margin-bottom: 25px;
 }
 
 

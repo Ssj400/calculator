@@ -13,8 +13,8 @@ body {
 
 .calculator {
     display: flex;
-    width: 35%;
-    height: 45%;
+    width: 65%;
+    height: 55%;
     flex-direction: column;
     gap: 5px;
     justify-content: center;

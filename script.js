@@ -74,10 +74,13 @@ let detectOperation = (str) => {
         if (Number.isNaN(result) || Number.isNaN(output.textContent)) {
             console.log(result)
             return output.textContent = 'Error';
-        } else if (result > 10 ** 12) {
-            return output.textContent = 'Too big';
+        } else if (result == 'Infinity') {
+            return output.textContent = 'Cant divide by 0'
         }
-        return output.textContent = result;
+         else if (result > 10 ** 12) {
+            return output.textContent = 'Too big';
+         }
+            return output.textContent = result;
     }
 
 }
